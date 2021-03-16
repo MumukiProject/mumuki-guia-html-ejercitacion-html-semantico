@@ -4,5 +4,5 @@ expectations:
   binding: body
   inspection: DeclaresTag:p
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: header
+  binding: head
   inspection: DeclaresTag:p
