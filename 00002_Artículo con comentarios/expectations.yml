@@ -1,29 +1,35 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: body
+  binding: html/body
   inspection: DeclaresTag:main
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: main
+  binding: html/body/main
   inspection: DeclaresTag:header
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: header
+  binding: html/body/main/header
   inspection: DeclaresTag:h1
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: header
+  binding: html/body/main/header
   inspection: DeclaresTag:div
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: div
+  binding: html/body/main/header/div
   inspection: DeclaresTag:time
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: time
+  binding: html/body/main/header/div/time
   inspection: DeclaresAttribute:datetime
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: body
+  binding: html/body
   inspection: DeclaresTag:p
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: body
+  binding: html/body
   inspection: DeclaresTag:section
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: section
+  binding: html/body/section
   inspection: DeclaresTag:h2
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/section/h2
+  inspection: DeclaresTag:article
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body
+  inspection: DeclaresTag
