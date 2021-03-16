@@ -1,0 +1,29 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: body
+  inspection: DeclaresTag:main
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: main
+  inspection: DeclaresTag:header
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: header
+  inspection: DeclaresTag:h1
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: header
+  inspection: DeclaresTag:div
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: div
+  inspection: DeclaresTag:time
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: time
+  inspection: DeclaresAttribute:datetime
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: body
+  inspection: DeclaresTag:p
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: body
+  inspection: DeclaresTag:section
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: section
+  inspection: DeclaresTag:h2
