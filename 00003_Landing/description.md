@@ -20,6 +20,7 @@ Creá la estructura HTML de una página personal (sin estilos) usando etiquetas 
 - Un pie de página que diga:
   - Hecho con :heart: 
 
+
  :warning: Consideraciones:
 
 - Analizá qué etiquetas semánticas corresponden en cada caso y cómo debería ser la estructura HTML (la descripción del ejercicio no indica cuál es exactamente).
