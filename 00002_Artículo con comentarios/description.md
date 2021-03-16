@@ -18,8 +18,7 @@ Creá la estructura HTML de un artículo (sin estilos) usando etiquetas semánti
   - Debajo del `header`, tiene que contener una etiqueta `p` con `lorem ipsum`.
   
 
-**⚠️ Consideraciones:**
+**️:warning: Consideraciones:**
 
 - Poner clases a todos los elementos.
 - Se puede usar `lorem ipsum` para todos los textos que se necesiten.
-<br>
