@@ -16,5 +16,5 @@
 **⚠️ Consideraciones:**
 
 - Poner clases a todos los elementos.
-- Se puede usar `lorem ipsum` para todos los texto que se necesiten.
+- Se puede usar `lorem ipsum` para todos los textos que se necesiten.
 <br>
