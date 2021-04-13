@@ -17,11 +17,9 @@ Creá la estructura HTML de una página personal (sin estilos) usando etiquetas 
 - Una sección "Contacto" que tenga
   - Título que diga "Contactame"
   - Datos de contacto que incluyan: email, telefono y página de linkedin (los datos no tienen que ser reales).
-- Un pie de página que diga:
-  - Hecho con :heart: 
+- Un pie de página que diga: `Hecho con :heart:`.
 
-
- :warning: Consideraciones:
+:warning: Consideraciones:
 
 - Analizá qué etiquetas semánticas corresponden en cada caso y cómo debería ser la estructura HTML (la descripción del ejercicio no indica cuál es exactamente).
 - Se puede usar `lorem ipsum` para rellenar los textos.
