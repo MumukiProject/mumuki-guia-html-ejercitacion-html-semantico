@@ -25,7 +25,7 @@ expectations:
   binding: html/body
   inspection: DeclaresTag:section
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: html/body/section
+  binding: section
   inspection: DeclaresTag:h2
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: html/body/section
