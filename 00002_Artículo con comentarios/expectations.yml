@@ -28,8 +28,8 @@ expectations:
   binding: section
   inspection: DeclaresTag:h2
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: section
+  binding: body
   inspection: DeclaresTag:article
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: section
+  binding: body
   inspection: DeclaresTag:header
