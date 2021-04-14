@@ -4,7 +4,7 @@
 > 
 Creá la estructura HTML de una página personal (sin estilos) usando etiquetas semánticas:
 >
-- Un encabezado que tengan links de navegación:
+- Un encabezado (header) que tengan links de navegación:
   - Sobre mí
   - Mis Proyectos
   - Contactame
@@ -12,10 +12,10 @@ Creá la estructura HTML de una página personal (sin estilos) usando etiquetas 
   - Nombre
   - Párrafo con breve descripción
 - Una sección "Mis proyectos" que tenga:
-  - Título que diga "Mis proyectos"
+  - Un título h2 que diga "Mis proyectos"
   - 4 `cards` de proyectos con: imagen, título y descripción.
 - Una sección "Contacto" que tenga
-  - Título que diga "Contactame"
+  - Un título h2 que diga "Contactame"
   - Datos de contacto que incluyan: email, telefono y página de linkedin (los datos no tienen que ser reales).
 - Un pie de página que diga: `Hecho con :heart:`.
 
