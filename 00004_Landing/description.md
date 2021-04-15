@@ -22,3 +22,5 @@ Creá la estructura HTML de una página personal :bust_in_silhouette: (sin estil
 - las imágenes pueden ser con ruta relativa o absoluta;
 - los links de navegación tienen que llegar a las respectivas secciones al ser clickeados;
 - poner clases a todos los elementos.
+
+> Al finalizar, cargá el repositorio con el correspondiente archivo `.html`.
